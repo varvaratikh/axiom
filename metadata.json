@@ -1,0 +1,6 @@
+{
+  "name": "Axiom Capital",
+  "description": "Интеллектуальный радар рыночных ожиданий, обратный DCF-анализ акций и симулятор устойчивости капитала.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
