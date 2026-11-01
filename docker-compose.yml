@@ -1,0 +1,14 @@
+services:
+  axiom-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: axiom-capital
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    security_opt:
+      - no-new-privileges:true
